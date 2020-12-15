@@ -1,0 +1,8 @@
+{
+  "hooks": {
+    "post-commit": "npm run test",
+    "post-merge": "npm install",
+    "post-rewrite": "npm install",
+    "pre-push": "echo Yeah!!"
+  }
+}
